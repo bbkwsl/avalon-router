@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>avalon路由demo</title>
+</head>
+<body>
+<div ms-controller="layout" class="ms-controller">
+    <div class="header">
+        <div class="navs">
+            <ul>
+                <li class="nav"><a href="#!/home">首页</a></li>
+                <li class="nav"><a href="#!/module">其他模块</a></li>
+            </ul>
+        </div>
+    </div>
+    <div ms-include-src="pageUrl"></div>
+</div>
+<script src="libs/require/require.js" type="text/javascript" data-main="main.js"></script>
+</body>
+</html>
